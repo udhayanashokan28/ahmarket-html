@@ -1,0 +1,252 @@
+/* Mobile  Device only*/
+
+
+@media only screen and (max-width: 480px) {
+    .inner-header .nav-right {
+        text-align: left;
+        display: none;
+    }
+
+    .col-md-3 {
+        width: 30%;
+    }
+
+    .col-md-7 {
+        width: 70%;
+    }
+
+    .shopping-type {
+        display: none;
+    }
+
+    .breadcrumbs {
+        display: none;
+        ;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .product-section {
+        padding-bottom: 0px;
+        padding-top: 15px;
+    }
+
+    .description-content {
+        font-size: 12px;
+        margin-bottom: 5px;
+        line-height: 15px;
+    }
+
+    .arr-mob {
+        width: 240px;
+    }
+
+    .new-arrival {
+        width: 100px;
+        margin-bottom: 0px;
+    }
+
+    .cart_btn-mob {
+        padding: 0px 0px 0px 0px;
+        border-radius: 4px;
+        gap: 1px;
+        background: #B7D635;
+    }
+
+    .cart_btn-mob div {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .text-wrapper-title-add-mobile {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0px;
+        color: #565959;
+        width: 50%;
+    }
+
+    .text-wrapper-value-add-mobile {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: right;
+        color: #000000;
+        width: 50%;
+    }
+
+    .review-mobile {
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        flex: 0 0 auto;
+        margin-bottom: 5px;
+    }
+
+    .details h4,
+    .details .new-arrival,
+    .details .fa-star,
+    .details .noreviews,
+    .details .description,
+    .details .description-content,
+    .details .noreviews,
+    .details .sku,
+    .details .price {
+        display: none;
+    }
+
+    .current-qar {
+        font-size: 14px;
+        height: 33px;
+
+    }
+
+    .current-amount {
+        font-size: 16px;
+    }
+
+    .delivery-mobile p {
+        margin-bottom: 10px;
+        line-height: 20px;
+        font-size: 12px;
+    }
+
+    .free-return-mobile {
+        color: #1747D7;
+        font-weight: 600;
+    }
+
+    .avail-mobile {
+        color: #157708;
+        font-weight: 600;
+    }
+
+    .payment-mobile {
+        color: #1747D7;
+        font-weight: 600;
+    }
+
+    .product-mob {
+        font-size: 16px;
+    }
+
+    .frame-13-mobile {
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        flex: 0 0 auto;
+        margin-bottom: 5px;
+    }
+
+    .text-wrapper-title-mobile {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0px;
+        color: #565959;
+        width: 150px;
+    }
+
+    .text-wrapper-value-mobile {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: right;
+        color: #000000;
+    }
+
+    .cart-qty, .addtocart {
+        display: none;
+    }
+
+    form {
+        display: none;
+    }
+
+    .footer-section {
+        background: #fff;
+        padding-top: 75px;
+        display: none;
+    }
+
+    .addreview {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #1747D7;
+        padding-left: 20px;
+    }
+
+    .fa-angle-down {
+        display: none;
+    }
+
+    .reviews .noreviews {
+        color: #BCBCBC;
+        font-size: 12px;
+    }
+
+    .footer_fix {
+        width: 100%;
+        left: 0;
+        height: 60px;
+        bottom: 0;
+        right: 0;
+        background-color: #fff;
+        text-align: center;
+        position: fixed;
+        z-index: 999999;
+        display: block;
+        box-shadow: 1px 1px 10px #ccc;
+    }
+
+    .box4_1 {
+        width: 20%;
+        margin: auto;
+        float: left;
+        background-color: transparent !important;
+        border: none !important;
+        height: 60px;
+        padding: 2px;
+    }
+
+    .box4_1 i {
+        color: #000;
+        font-size: 16px;
+    }
+
+    .box4_1 span {
+        font-size: 11px;
+        margin: auto;
+        width: 100%;
+        float: left;
+        text-align: center;
+        color: #000;
+        text-transform: capitalize;
+    }
+    .reviews {
+        margin: 20px 0 70px 0;
+    }
+}
+
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1920px) {
+
+    /* For portrait layouts only */
+    .mobile-description,
+    .current-qar, .fa-angle-right, .cartIcon {
+        display: none;
+    }
+
+}
